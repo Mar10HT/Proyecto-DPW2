@@ -619,3 +619,549 @@
 #30 C:\\xampp\\htdocs\\CEGE\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #31 {main}
 "} 
+[2021-07-30 22:28:29] production.ERROR: Command "make:factorr" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:export
+    make:factory
+    make:import
+    make:job
+    make:listener
+    make:livewire
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test
+    make:transformer {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:factorr\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:export
+    make:factory
+    make:import
+    make:job
+    make:listener
+    make:livewire
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test
+    make:transformer at C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\symfony\\console\\Application.php:682)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\symfony\\console\\Application.php(255): Symfony\\Component\\Console\\Application->find('make:factorr')
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-07-30 23:08:08] production.ERROR: Class "Router" not found {"exception":"[object] (Error(code: 0): Class \"Router\" not found at C:\\Users\\mherr\\Proyecto-DPW2\outes\\web.php:28)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\mherr\\\\...')
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\mherr\\\\...')
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\mherr\\\\...')
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\mherr\\\\...')
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 C:\\Users\\mherr\\Proyecto-DPW2\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-07-30 23:22:24] production.ERROR: Class "Router" not found {"exception":"[object] (Error(code: 0): Class \"Router\" not found at C:\\Users\\mherr\\Proyecto-DPW2\outes\\web.php:28)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\mherr\\\\...')
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\mherr\\\\...')
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\mherr\\\\...')
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\mherr\\\\...')
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 C:\\Users\\mherr\\Proyecto-DPW2\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-07-30 23:24:10] production.ERROR: Class "Router" not found {"exception":"[object] (Error(code: 0): Class \"Router\" not found at C:\\Users\\mherr\\Proyecto-DPW2\outes\\web.php:28)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\mherr\\\\...')
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\mherr\\\\...')
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\mherr\\\\...')
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\mherr\\\\...')
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 C:\\Users\\mherr\\Proyecto-DPW2\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-07-30 23:24:11] production.ERROR: Class "Router" not found {"exception":"[object] (Error(code: 0): Class \"Router\" not found at C:\\Users\\mherr\\Proyecto-DPW2\outes\\web.php:28)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\mherr\\\\...')
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\mherr\\\\...')
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\mherr\\\\...')
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\mherr\\\\...')
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 C:\\Users\\mherr\\Proyecto-DPW2\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-07-30 23:27:00] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap(NULL, Object(Closure))
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(869): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1027): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(947): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(156): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(697): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#21 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(166): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#40 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\mherr\\Proyecto-DPW2\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\mherr\\Proyecto-DPW2\\server.php(21): require_once('C:\\\\Users\\\\mherr\\\\...')
+#43 {main}
+"} 
+[2021-07-30 23:27:00] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap(NULL, Object(Closure))
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(869): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1027): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(947): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(205): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(179): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\server.php(21): require_once('C:\\\\Users\\\\mherr\\\\...')
+#20 {main}
+"} 
+[2021-07-30 23:27:14] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap(NULL, Object(Closure))
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(869): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1027): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(947): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(156): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(697): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#21 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(166): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#40 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\mherr\\Proyecto-DPW2\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\mherr\\Proyecto-DPW2\\server.php(21): require_once('C:\\\\Users\\\\mherr\\\\...')
+#43 {main}
+"} 
+[2021-07-30 23:27:14] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap(NULL, Object(Closure))
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(869): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1027): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(947): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(205): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(179): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\server.php(21): require_once('C:\\\\Users\\\\mherr\\\\...')
+#20 {main}
+"} 
+[2021-07-30 23:28:23] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap(NULL, Object(Closure))
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(869): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1027): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(947): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(156): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(697): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#21 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(166): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#40 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\mherr\\Proyecto-DPW2\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\mherr\\Proyecto-DPW2\\server.php(21): require_once('C:\\\\Users\\\\mherr\\\\...')
+#43 {main}
+"} 
+[2021-07-30 23:28:23] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap(NULL, Object(Closure))
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(869): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1027): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(947): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(205): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(179): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\server.php(21): require_once('C:\\\\Users\\\\mherr\\\\...')
+#20 {main}
+"} 
+[2021-07-30 23:28:30] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap(NULL, Object(Closure))
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(869): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1027): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(947): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(156): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(697): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#21 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(166): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#40 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\mherr\\Proyecto-DPW2\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\mherr\\Proyecto-DPW2\\server.php(21): require_once('C:\\\\Users\\\\mherr\\\\...')
+#43 {main}
+"} 
+[2021-07-30 23:28:30] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap(NULL, Object(Closure))
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(869): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1027): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(947): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(205): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(179): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\server.php(21): require_once('C:\\\\Users\\\\mherr\\\\...')
+#20 {main}
+"} 
+[2021-07-30 23:28:41] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap(NULL, Object(Closure))
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(869): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1027): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(947): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(156): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(697): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#21 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(166): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#40 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\mherr\\Proyecto-DPW2\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\mherr\\Proyecto-DPW2\\server.php(21): require_once('C:\\\\Users\\\\mherr\\\\...')
+#43 {main}
+"} 
+[2021-07-30 23:28:41] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
+#1 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap(NULL, Object(Closure))
+#2 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(869): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1027): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(947): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(205): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\Users\\mherr\\Proyecto-DPW2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(179): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#18 C:\\Users\\mherr\\Proyecto-DPW2\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#19 C:\\Users\\mherr\\Proyecto-DPW2\\server.php(21): require_once('C:\\\\Users\\\\mherr\\\\...')
+#20 {main}
+"} 

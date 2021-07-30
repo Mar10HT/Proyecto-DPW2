@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegionesController;
+use App\Http\Controllers\DepartamentosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,5 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/region',[RegionesController::class,'index']);
+
+Route::get('/departamentos',[DepartamentosController::class,'index']);
