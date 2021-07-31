@@ -8,6 +8,6 @@ use App\DataTables\DepartamentosDataTable;
 class DepartamentosController extends Controller
 {
     public function index(DepartamentosDataTable $datatable){
-        return $datatable -> render('mostrar.departamento');
+        return $datatable -> render('mostrar.departamentos');
     }
 }
